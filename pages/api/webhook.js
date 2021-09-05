@@ -1,7 +1,7 @@
 import { buffer } from "micro";
 import { postData } from "../../src/routes/order";
 
-//   extablish the connection to stripe
+///////  // extablish the connection to stripe
 const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
 
 const endpointSecret = process.env.STRIPE_SIGNING_KEY;
