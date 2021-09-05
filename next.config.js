@@ -10,7 +10,4 @@ module.exports = {
       "images-eu.ssl-images-amazon.com",
     ],
   },
-  env: {
-    HOST: "https://amazon-clone-with-next-js-git-master-the-indian-programmer.vercel.app/",
-  },
 };
