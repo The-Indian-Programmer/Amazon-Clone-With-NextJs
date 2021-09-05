@@ -26,8 +26,8 @@ const checkoutfunction = async (req, res) => {
     },
     line_items: transformateditems,
     mode: "payment",
-    success_url: `${process.env.HOST}/success`,
-    cancel_url: `${process.env.HOST}/cancel`,
+    success_url: `https://amazon-clone-with-next-js-git-master-the-indian-programmer.vercel.app/success`,
+    cancel_url: `https://amazon-clone-with-next-js-git-master-the-indian-programmer.vercel.app/cancel`,
     metadata: {
       email,
       images: JSON.stringify(items.map((item) => item.image)),

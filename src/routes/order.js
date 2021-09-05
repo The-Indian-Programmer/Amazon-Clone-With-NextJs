@@ -1,4 +1,5 @@
-const hostUrl = process.env.HOST;
+const hostUrl =
+  "https://amazon-clone-with-next-js-git-master-the-indian-programmer.vercel.app";
 export const postData = async (url, post) => {
   const res = await fetch(`${hostUrl}/api/${url}`, {
     method: "POST",

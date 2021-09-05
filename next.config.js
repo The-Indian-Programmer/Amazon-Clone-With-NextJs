@@ -11,6 +11,6 @@ module.exports = {
     ],
   },
   env: {
-    HOST: "https://amazon-clone-with-next-js-1x5629o5p-the-indian-programmer.vercel.app/",
+    HOST: "https://amazon-clone-with-next-js-git-master-the-indian-programmer.vercel.app/",
   },
 };
