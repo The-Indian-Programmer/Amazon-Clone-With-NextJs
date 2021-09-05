@@ -1,4 +1,5 @@
 const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
+stripe.setMaxNetworkRetries(2);
 const checkoutfunction = async (req, res) => {
   const { items, email } = req.body;
   let imageArr = [];
